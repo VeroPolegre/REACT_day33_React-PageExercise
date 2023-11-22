@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../Header/Header";
 import "./Home.css";
 const Home = () => {
   const technologies = [
@@ -14,7 +13,6 @@ const Home = () => {
   ];
   return (
     <div className="Home">
-      <Header />
       <div className="home-container">
         <h2 className="home-header">About Me</h2>
         <div className="home-content">
