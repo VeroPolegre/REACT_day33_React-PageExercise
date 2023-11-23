@@ -1,3 +1,17 @@
 .navbar {
-  font-family: "Roboto", Arial, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 1em;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar-link:hover {
+  color: #4caf50;
 }
